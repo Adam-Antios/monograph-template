@@ -1,6 +1,6 @@
 # Diploma Thesis Template
 
-This is a template for a diploma thesis.
+![](./Resources/covers.png)
 
 ## Instructions for Use
 
