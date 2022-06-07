@@ -1,0 +1,45 @@
+% Notes:
+% 1. By default chapters start at even page numbers.
+
+\documentclass[a4paper,twoside]{book}
+
+\usepackage{Preamble}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\input{Miscellaneous.tex}
+
+\input{Introduction.tex}
+
+\input{Chapters/Chapter-1.tex}
+
+\input{Chapters/Chapter-1.tex}
+
+\input{Chapters/Chapter-3.tex}
+
+\input{Epilogue.tex}
+
+\begin{appendices}
+
+\input{Chapters/Appendix-1.tex}
+
+\input{Chapters/Appendix-2.tex}
+
+\end{appendices}
+
+% These commands are needed for the correct page numbering
+% of the bibliography as it appears on the table of contents. 
+\cleardoublepage
+\phantomsection
+
+\addcontentsline{toc}{chapter}{Bibliography}
+
+% The bibliography style is defined in the Preamble.sty.
+\printbibliography
+
+\NewPage
+
+\end{document}
+

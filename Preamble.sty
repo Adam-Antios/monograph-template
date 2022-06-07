@@ -1,0 +1,172 @@
+%===============================================================================
+%
+%===============================================================================
+
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+
+\ProvidesPackage{Preamble}[2018/03/18 Preamble]
+
+%===============================================================================
+%
+%===============================================================================
+
+% The inner and outer margins are used for two-sided documents.
+\RequirePackage
+[%
+  top = 3cm,
+  bottom = 3cm,
+  inner = 3.5cm,
+  outer = 2.5cm,
+  headheight = 1cm,
+  headsep = 1cm,
+  footskip = 1.5cm
+]{geometry}
+
+%===============================================================================
+%
+%===============================================================================
+
+\RequirePackage{titlesec}
+
+\titleformat{\chapter}[display]{\bfseries\centering}{
+    {\Large Chapter}\\[0.5cm]
+    \scalebox{9}{
+        \color{CustomColour}{\thechapter}
+    }
+}{0.5cm}{\Large}[\vspace{5cm}]
+
+\titleformat{\section}[hang]{\bfseries\centering}{
+    \large \thesection
+}{1em}{\large}
+
+\titleformat{\subsection}[hang]{\bfseries\centering}{
+    \large \thesubsection
+}{1em}{\large}
+
+%===============================================================================
+%
+%===============================================================================
+
+\RequirePackage{fancyhdr}
+
+\fancyhead[LE,RO]{}
+\fancyhead[RE,LO]{}
+
+\fancyhead[CO]{\slshape\nouppercase{\rightmark}}
+\fancyhead[CE]{\slshape\nouppercase{\leftmark}}
+
+\renewcommand{\headrulewidth}{0pt}
+
+%===============================================================================
+%
+%===============================================================================
+
+\RequirePackage[greek, english]{babel}
+
+\babelfont{rm}[Language=Default]{Noto Serif}
+\babelfont{sf}[Language=Default]{Noto Sans}
+\babelfont{tt}[Language=Default]{Noto Sans Mono}
+
+%===============================================================================
+%
+%===============================================================================
+
+\RequirePackage{amsmath}
+\RequirePackage{unicode-math}
+
+%===============================================================================
+%
+%===============================================================================
+
+\RequirePackage{lettrine}
+\RequirePackage{afterpage}
+\RequirePackage{csquotes}
+\RequirePackage{lipsum}
+\RequirePackage{emptypage}
+\RequirePackage{graphicx}
+
+\RequirePackage[toc,page]{appendix}
+\RequirePackage[dvipsnames]{xcolor}
+\definecolor{CustomColour}{HTML}{008B8B}
+\RequirePackage{pgfornament}
+
+\RequirePackage[
+    colorlinks = true, 
+    linkcolor = CustomColour,
+    citecolor= CustomColour,
+    hypertexnames=true
+]{hyperref}
+
+%===============================================================================
+%
+%===============================================================================
+
+\RequirePackage[style=apa]{biblatex}
+\DeclareLanguageMapping{english}{english-apa}
+\DeclareLanguageMapping{greek}{greek-apa}
+\addbibresource{Bibliography.bib}
+
+%===============================================================================
+%
+%===============================================================================
+
+\RequirePackage{listings}
+
+\lstset
+{
+    basicstyle=\ttfamily,
+    %
+    showspaces=false,
+    showstringspaces=false,
+    %
+    numbers=left,
+    numbersep=5pt,
+    numberstyle=\footnotesize,
+    stepnumber=1,
+    %
+    tabsize=2,
+    %
+    breaklines=true,
+    breakatwhitespace=true,
+    %
+    columns=flexible,
+    keepspaces=true
+}
+
+%===============================================================================
+%
+%===============================================================================
+
+% Prevents footnotes from splitting to multiple pages.
+\interfootnotelinepenalty=10000
+
+% The spacing factor between the document lines.
+\linespread{1.5}
+
+%===============================================================================
+%
+%===============================================================================
+
+\newcommand{\NewPage}
+{%
+    \newpage\null\thispagestyle{empty}\newpage%
+}
+
+%===============================================================================
+%
+%===============================================================================
+
+\newcommand{\HellenicThesisTitle}
+{%
+    {\Large \textbf{Τίτλος Διπλωματικής Εργασίας}}
+}
+
+\newcommand{\EnglishThesisTitle}
+{%
+    {\Large \textbf{Diploma Thesis Title}}
+}
+
+%================================================%
+%================================================%
+
+\endinput
