@@ -1,6 +1,6 @@
 # Diploma Thesis Template
 
-![](./Resources/two_covers.png)
+![](./Resources/covers.png)
 
 ## Instructions for Use
 
