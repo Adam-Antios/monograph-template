@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Monograph is a template, mainly suitable for diploma theses and doctoral dissertations.
+Monograph is a template, suitable mainly for diploma theses and doctoral dissertations.
 
 ## Instructions for Use
 
