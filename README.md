@@ -1,6 +1,10 @@
-# Diploma Thesis Template
+# Monograph
 
 ![](./Resources/two_covers.png)
+
+## Introduction
+
+Monograph is mainly a template suitable for diploma theses and doctoral dissertations.
 
 ## Instructions for Use
 
