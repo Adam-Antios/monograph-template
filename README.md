@@ -1,7 +1,5 @@
 # Monograph
 
-![](./Resources/two_covers.png)
-
 ## Introduction
 
 Monograph is a template, suitable mainly for diploma theses and doctoral dissertations.
