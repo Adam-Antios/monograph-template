@@ -1,8 +1,11 @@
 # Monograph
 
+![](./monograph/Resources/front_page_en.png)
+
 ## Introduction
 
 Monograph is a template, suitable mainly for diploma theses and doctoral dissertations.
+To see the final compiled document, open the `Monograph.pdf` file of this repository.
 
 ## Instructions for Use
 
@@ -14,12 +17,12 @@ Should you decide to proceed with this method then, once you sign in to your Ove
 
 1. The default language for the template is English. If you want to change it to Greek for example, then configure the `babel` package in the `Preamble.sty` as following:
 
-	```
-	\RequirePackage[english, greek]{babel}
-	```
+    ```
+    \RequirePackage[english, greek]{babel}
+    ```
 
-	By doing so, you declare that there will be two languages in the document, Greek and English, with the Greek being the default one. Note that in the `babel` package the active language is the last one.
-	
+    By doing so, you declare that there will be two languages in the document, Greek and English, with the Greek being the default one. Note that in the `babel` package the active language is the last one.
+
 ## Licensing Agreement
 
 MIT License
