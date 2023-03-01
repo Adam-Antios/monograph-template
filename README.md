@@ -5,7 +5,7 @@
 ## Introduction
 
 Monograph is a template, suitable mainly for diploma theses and doctoral dissertations.
-To see the final compiled document, open the `Monograph.pdf` file of this repository.
+To see the final compiled document, open the `Monograph.pdf` file in this repository.
 
 ## Instructions for Use
 
