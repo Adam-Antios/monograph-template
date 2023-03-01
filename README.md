@@ -9,19 +9,26 @@ To see the final compiled document, open the `Monograph.pdf` file of this reposi
 
 ## Instructions for Use
 
-The best way to use this template is to download it as a zip file and upload it as it is (as a zip file) to Overleaf.Overleaf is an online LaTeX editor and has pre-installed all the necessary packages to compile this template into a PDF file.
+The best way to use this template is to download it as a zip file and then upload it as it is (as a zip file) to Overleaf.
+Overleaf is an online LaTeX editor and has pre-installed all the necessary packages to compile this template into a PDF file.
 
-Should you decide to proceed with this method then, once you sign in to your Overleaf account, you must open the Menu button on the top left corner and choose `XeLaTeX` as the compiler and the `Monograph.tex` as the main document.
+Should you decide to proceed with this method then, then once you sign in to your Overleaf account, press the Menu button on the top left corner and choose `XeLaTeX` (or `LuaLaTeX`), as well as the `Monograph.tex` as the main document.
 
 ## Configuration Options
 
-1. The default language for the template is English. If you want to change it to Greek for example, then configure the `babel` package in the `Preamble.sty` as following:
+1. The default language for the template is English. If you want to change it, for example to Greek, then configure the `babel` package in the `Preamble.sty` as following:
 
     ```
     \RequirePackage[english, greek]{babel}
     ```
 
-    By doing so, you declare that there will be two languages in the document, Greek and English, with the Greek being the default one. Note that in the `babel` package the active language is the last one.
+By doing so, you declare that there will be two languages in the document, Greek and English, with the Greek being the default one.
+Note that in the `babel` package the active language is the last one.
+
+## Available Support
+
+If you need support regarding using this tempalte, or you find any misconfigurations that result in errors, feel free to create an [issue](https://github.com/Adam-Antios/monograph/issues).
+I can't guarantee that I will help, or that I will implement any changes, but I will try my best to do so.
 
 ## Licensing Agreement
 
