@@ -34,9 +34,7 @@ I can't guarantee that I will help, or that I will implement any changes, but I 
 
 If you use this template, you can reference it by copying the following text and pasting it in your document.
 
-> This work has been created using the Monograph LaTeX template:
->
-> https://github.com/Adam-Antios/monograph
+> This work has been created using the Monograph LaTeX template (https://github.com/Adam-Antios/monograph).
 >
 > MIT License
 >
