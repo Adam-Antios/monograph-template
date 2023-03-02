@@ -30,7 +30,13 @@ Note that in the `babel` package the active language is the last one.
 If you need support regarding using this tempalte, or you find any misconfigurations that result in errors, feel free to create an [issue](https://github.com/Adam-Antios/monograph/issues).
 I can't guarantee that I will help, or that I will implement any changes, but I will try my best to do so.
 
-## Licensing Agreement
+## How to Reference
+
+If you use this template, you can reference it by copying the following text and pasting it in your document.
+
+This work has been created using the Monograph LaTeX template:
+
+https://github.com/Adam-Antios/monograph
 
 MIT License
 
