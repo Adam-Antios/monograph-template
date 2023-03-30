@@ -36,11 +36,15 @@ If you use this template as a base for your work, you can reference it by copyin
 
 ---
 
-This work has been created using the Monograph LaTeX template (https://github.com/Adam-Antios/monograph).
+This work has been created using the Monograph LaTeX template
+
+(https://github.com/Adam-Antios/monograph)
 
 MIT License
 
-Copyright (c) 2022 Adam-Antios (https://github.com/Adam-Antios)
+Copyright (c) 2023 Adam-Antios
+
+(https://github.com/Adam-Antios)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
